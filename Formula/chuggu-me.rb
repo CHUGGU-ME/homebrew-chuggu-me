@@ -1,4 +1,4 @@
-class ChuggueMe < Formula
+class ChugguMe < Formula
     desc "epl info for everyone"
     homepage ""
     url "https://github.com/CHUGGU-ME/CHUGGU-ME-v2/releases/download/untagged-e1eeb5880af108a0a0e5/CHUGGU-ME-v2-1.0.jar"
