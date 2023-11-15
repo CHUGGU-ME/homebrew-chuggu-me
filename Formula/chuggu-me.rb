@@ -8,8 +8,8 @@ class ChugguMe < Formula
     depends_on "openjdk"
 
     def install
-        jar = "CHUGGU-ME.jar"
-        libexec.install "CHUGGU-ME.jar" => jar
-        chmod 0755, bin/"chuggu-me"
+        inreplace "brew/chuggu-me", "##PREFIX##", "#{prefix}"
+        prefix.install "CHUGGU-ME.jar" 
+      bin.install "brew/chuggu-me"
     end
   end
