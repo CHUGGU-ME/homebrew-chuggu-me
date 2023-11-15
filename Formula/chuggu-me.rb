@@ -8,8 +8,6 @@ class ChugguMe < Formula
     depends_on "openjdk"
 
     def install
-        inreplace "brew/chuggu-me", "##PREFIX##", "#{prefix}"
-        prefix.install "CHUGGU-ME.jar" 
-      bin.install "brew/chuggu-me"
+        prefix.install "CHUGGU-ME.jar"
     end
   end
