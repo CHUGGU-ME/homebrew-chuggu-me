@@ -10,12 +10,6 @@ class ChugguMe < Formula
     def install
         jar = "CHUGGU-ME.jar"
         libexec.install "CHUGGU-ME.jar" => jar
-        (bin/"chuggu-me").write <<~EOS
-            #!/bin/bash
-            if [[ "$*" != *"-gui"* ]]; then
-                VMARGS="-Djava.awt.headless=true"
-            fi
-        EOS
         chmod 0755, bin/"chuggu-me"
     end
   end
