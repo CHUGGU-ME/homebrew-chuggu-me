@@ -8,6 +8,7 @@ class ChugguMe < Formula
     depends_on "openjdk"
 
     def install
-        prefix.install "CHUGGU-ME.jar"
+        libexec.install "CHUGGU-ME.jar"
+        bin.write_jar_script libexec/"CHUGGU-ME.jar", "chuggu-me"
     end
   end
