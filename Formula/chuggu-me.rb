@@ -2,7 +2,7 @@ class ChugguMe < Formula
     desc "epl info for everyone"
     homepage ""
     url "https://github.com/CHUGGU-ME/CHUGGU-ME-v2/archive/refs/tags/test_brew_zip.tar.gz"
-    sha256 "77c4b0dcb8e1fb202ebdf76136a8817887257d3303dfda9bca4089dfaecac4af"
+    sha256 "be3dbf4c45c482143f102ddf1b3f44d6de3149a4b56196a373f690df804b0b62"
     version "1.0"
 
     depends_on "openjdk"
