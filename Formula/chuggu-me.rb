@@ -12,4 +12,8 @@ class ChugguMe < Formula
         libexec.install "./build/libs/CHUGGU-ME-v2.jar"
         bin.write_jar_script libexec/"CHUGGU-ME-v2.jar", "chuggu-me"
     end
+
+    test do
+        system "chuggu-me", "goal"
+    end
   end
