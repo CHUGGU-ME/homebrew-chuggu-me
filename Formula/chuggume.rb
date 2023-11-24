@@ -3,7 +3,7 @@ class Chuggume < Formula
     homepage ""
     url "https://github.com/CHUGGU-ME/CHUGGU-ME-v2/archive/refs/tags/v1.1.8.tar.gz"
     sha256 "ac58eb7d8d8016aaef8d493fd3c823043cbbdb36d9aa7cf720cb80940383ba26"
-    version "v1.1.8"
+    version "1.1.8"
 
     depends_on "openjdk"
 
