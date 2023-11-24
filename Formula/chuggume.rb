@@ -1,8 +1,8 @@
 class Chuggume < Formula
     desc "epl info for everyone"
     homepage ""
-    url "https://github.com/CHUGGU-ME/CHUGGU-ME-v2/archive/refs/tags/v1.1.1.tar.gz"
-    sha256 "21d8814c9e583658a9b7b6e388d2abc811ca688cb96d35a5dddc1df8a34aa04c"
+    url "https://github.com/CHUGGU-ME/CHUGGU-ME-v2/archive/refs/tags/v1.1.8.tar.gz"
+    sha256 "ac58eb7d8d8016aaef8d493fd3c823043cbbdb36d9aa7cf720cb80940383ba26"
     version "1.0"
 
     depends_on "openjdk"
