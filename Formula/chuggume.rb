@@ -1,4 +1,4 @@
-class ChugguMe < Formula
+class Chuggume < Formula
     desc "epl info for everyone"
     homepage ""
     url "https://github.com/CHUGGU-ME/CHUGGU-ME-v2/archive/refs/tags/v1.1.1.tar.gz"
