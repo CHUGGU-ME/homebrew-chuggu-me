@@ -10,10 +10,10 @@ class ChugguMe < Formula
     def install
         system "./gradlew", "jar", "-x", "test"
         libexec.install "./build/libs/CHUGGU-ME-v2.jar"
-        bin.write_jar_script libexec/"CHUGGU-ME-v2.jar", "chuggu-me"
+        bin.write_jar_script libexec/"CHUGGU-ME-v2.jar", "chuggume"
     end
 
     test do
-        system "chuggu-me", "goal"
+        system "chuggume", "update"
     end
   end
